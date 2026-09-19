@@ -24,7 +24,7 @@ from scipy.cluster.hierarchy import dendrogram, linkage
 
 # DATA PREPROCESSING
 
-df = pd.read_csv("Pythonproject.csv")
+df = pd.read_csv("wellness_center_data.csv")
 
 df["Latitude"] = pd.to_numeric(df["Latitude"], errors="coerce")
 df["Longitude"] = pd.to_numeric(df["Longitude"], errors="coerce")
